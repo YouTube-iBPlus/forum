@@ -1,0 +1,24 @@
+.alert-minimalist {
+    background-color:#fcfff5;
+    color:#2c662d;
+    box-shadow:0 0 0 1px #a3c293 inset,0 0 0 0 transparent;
+    
+	
+	border-color: rgba(149, 149, 149, 0.3);
+	border-radius: 3px;
+
+	padding: 10px;
+}
+.alert-minimalist > [data-notify="icon"] {
+	height: 50px;
+	margin-right: 12px;
+}
+.alert-minimalist > [data-notify="title"] {
+	color:#1a531b;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.alert-minimalist > [data-notify="message"] {
+	font-size: 80%;
+}
